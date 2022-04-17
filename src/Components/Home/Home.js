@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Servive = () => {
+
+const Home = () => {
     return (
         <div>
 
@@ -8,4 +9,4 @@ const Servive = () => {
     );
 };
 
-export default Servive;
+export default Home;
