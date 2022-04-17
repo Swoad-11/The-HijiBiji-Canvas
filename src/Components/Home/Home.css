@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-h1 {
+.title {
     font-family: 'Permanent Marker', cursive;
 }
 
-p {
+.description {
     font-family: 'Oswald', sans-serif;
 }

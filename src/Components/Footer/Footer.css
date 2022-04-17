@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.social {
+    color: rgb(15 118 110);
+}
+
+.social:hover {
+    color: white;
+}
