@@ -6,10 +6,11 @@ import Blogs from "./Components/Blogs/Blogs";
 import Banner from "./Components/Banner/Banner";
 import Service from "./Components/Service/Service";
 import ErrorNotFound from "./Components/Error404/ErrorNotFound";
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="*" element={<ErrorNotFound></ErrorNotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
