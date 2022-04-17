@@ -5,15 +5,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCEKsGu344FWuAVuEDX-jFa5BTt0ZVSJLc",
-    authDomain: "hijibiji-canvas-11.firebaseapp.com",
-    projectId: "hijibiji-canvas-11",
-    storageBucket: "hijibiji-canvas-11.appspot.com",
-    messagingSenderId: "754967116103",
-    appId: "1:754967116103:web:30c995cccffd70d207f462"
+    apiKey: "AIzaSyDvmG2K8kepfLuigmip6U5V261SfsXjHy0",
+    authDomain: "hijibijicanvas.firebaseapp.com",
+    projectId: "hijibijicanvas",
+    storageBucket: "hijibijicanvas.appspot.com",
+    messagingSenderId: "136525537131",
+    appId: "1:136525537131:web:1ba9f9f52076e18eda362e"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-export default app;
