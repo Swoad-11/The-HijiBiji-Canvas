@@ -34,6 +34,9 @@ const Header = () => {
                         <CustomLink to="/blogs">
                             <Nav.Link className="mx-2"><span>BLOGS</span></Nav.Link>
                         </CustomLink>
+                        <CustomLink to="/about">
+                            <Nav.Link className="mx-2"><span>ABOUT</span></Nav.Link>
+                        </CustomLink>
                     </Nav>
                     <Navbar.Collapse className="justify-content-end">
                         {

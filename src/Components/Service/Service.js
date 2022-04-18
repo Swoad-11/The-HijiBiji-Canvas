@@ -43,7 +43,7 @@ const Service = () => {
                             <ListGroupItem>Price Range: 500-800 BDT</ListGroupItem>
                             <ListGroupItem>Rating: 4.5/5</ListGroupItem>
                         </ListGroup>
-                        <Button variant="btn btn-text" style={{ width: '18rem' }}>Checkout</Button>
+                        <Button onClick={() => navigateToServiceDetail()} variant="btn btn-text" style={{ width: '18rem' }}>Checkout</Button>
                     </Card></Col>
                     <Col><Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={img3} />
@@ -57,7 +57,7 @@ const Service = () => {
                             <ListGroupItem>Price Range: 200-300 BDT</ListGroupItem>
                             <ListGroupItem>Rating: 4.75/5</ListGroupItem>
                         </ListGroup>
-                        <Button variant="btn btn-text" style={{ width: '18rem' }}>Checkout</Button>
+                        <Button onClick={() => navigateToServiceDetail()} variant="btn btn-text" style={{ width: '18rem' }}>Checkout</Button>
                     </Card></Col>
                 </Row>
             </Container>

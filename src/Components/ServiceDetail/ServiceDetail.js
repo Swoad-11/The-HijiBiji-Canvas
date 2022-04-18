@@ -6,8 +6,8 @@ const ServiceDetail = () => {
     return (
         <div>
             <h2 className='text-center'>Service Detail: </h2>
-            <p>We will provide our best effort to give you the best items for all type of services mentioned.</p>
-            <div className='text-center'>
+            <h4 className='text-center'>We will provide our best effort to give you the best items for all type of services mentioned.</h4>
+            <div className='text-center my-5'>
                 <Link to="/checkout">
                     <button style={{ width: '18rem' }} className='btn btn-text btn-primary'>Proceed Checkout</button>
                 </Link>
