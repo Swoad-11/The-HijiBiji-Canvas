@@ -5,6 +5,10 @@
     margin-top: 100px;
 }
 
+.home-row {
+    align-items: center !important;
+}
+
 .title {
     font-family: 'Permanent Marker', cursive;
 }
@@ -15,13 +19,13 @@
 
 .btn {
     width: 150px;
-    background-color: transparent;
-    border: 1px solid #20B2AA;
+    background: transparent !important;
+    border: 1px solid rgb(15 118 110) !important;
 }
 
 .btn:hover {
-    border: 1px solid #20B2AA;
-    background-color: #20B2AA;
+    border: 1px solid rgb(15 118 110) !important;
+    background-color: rgb(15 118 110) !important;
 }
 
 .btn-text {

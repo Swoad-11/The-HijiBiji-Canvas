@@ -11,7 +11,7 @@ const Footer = () => {
 
         <div className='footer'>
             <Container>
-                <Row className="pb-2">
+                <Row className="pb-2 justify-content-baseline">
                     <Col sm={8}>
                         <Container>
                             <Row>

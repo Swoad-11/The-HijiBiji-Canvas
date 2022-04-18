@@ -27,6 +27,11 @@ const Header = () => {
                             <Nav.Link className="mx-2"><span>BLOGS</span></Nav.Link>
                         </CustomLink>
                     </Nav>
+                    <Navbar.Collapse className="justify-content-end">
+                        <LinkContainer to="/login">
+                            <Nav.Link className="mx-2 text-light"><span>Login</span></Nav.Link>
+                        </LinkContainer>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </div>
