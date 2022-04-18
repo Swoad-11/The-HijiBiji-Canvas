@@ -13,7 +13,7 @@ const Service = () => {
         navigate('/servicedetail');
     }
     return (
-        <div>
+        <div className='my-4'>
             <h2 className='description text-center'>Our Services</h2>
             <Container>
                 <Row>

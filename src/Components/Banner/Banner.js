@@ -9,9 +9,9 @@ import banner5 from '../../images/img2.jpg'
 
 const Banner = () => {
     return (
-        <div>
+        <div className='my-4'>
             <h3 className='text-center description'>Some of Our Works</h3>
-            <Carousel fade variant="dark">
+            <Carousel className='py-4' fade variant="dark">
                 <Carousel.Item>
                     <img
                         className="img d-block mx-auto"
@@ -48,6 +48,7 @@ const Banner = () => {
                     />
                 </Carousel.Item>
             </Carousel>
+            <hr className='w-50 mx-auto' />
         </div>
     );
 };

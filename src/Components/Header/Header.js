@@ -22,31 +22,26 @@ const Header = () => {
                         <NavbarBrand to="/">The HijiBiji Canvas</NavbarBrand>
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav className="mx-4">
                             <CustomLink to="/home">
                                 <Nav.Link className="mx-2"><span>HOME</span></Nav.Link>
                             </CustomLink>
-                            <CustomLink to="/banner">
-                                <Nav.Link className="mx-2"><span>BANNER</span></Nav.Link>
-                            </CustomLink>
-                            <CustomLink to="/service">
-                                <Nav.Link className="mx-2"><span>SERVICES</span></Nav.Link>
-                            </CustomLink>
+
                             <CustomLink to="/blogs">
                                 <Nav.Link className="mx-2"><span>BLOGS</span></Nav.Link>
                             </CustomLink>
                             <CustomLink to="/about">
                                 <Nav.Link className="mx-2"><span>ABOUT</span></Nav.Link>
                             </CustomLink>
+                            {
+                                user ?
+                                    <Nav.Link className='mx-2 text-dark text-decoration-none' onClick={handleSignOut}><span>Sign Out</span></Nav.Link>
+                                    :
+                                    <LinkContainer to="/login">
+                                        <Nav.Link className="mx-2 text-dark"><span>Login</span></Nav.Link>
+                                    </LinkContainer>}
                         </Nav>
-                        {
-                            user ?
-                                <Nav.Link className='mx-2 text-dark text-decoration-none' onClick={handleSignOut}><span>Sign Out</span></Nav.Link>
-                                :
-                                <LinkContainer to="/login">
-                                    <Nav.Link className="mx-2 text-dark"><span>Login</span></Nav.Link>
-                                </LinkContainer>}
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
