@@ -1,4 +1,4 @@
-# Sherlock Holmes Book Review App
+# The Hijibiji Canvas
 
 ## [Live Website Link](https://the-hijibiji-canvas.netlify.app/)
 
