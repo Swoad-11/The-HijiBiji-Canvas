@@ -4,8 +4,14 @@ import img1 from '../../images/Byomkesh.png'
 import img2 from '../../images/img5.jpg'
 import img3 from '../../images/img4.jpg'
 import './Service.css'
+import { useNavigate } from 'react-router-dom';
 
 const Service = () => {
+    const navigate = useNavigate();
+
+    const navigateToServiceDetail = () => {
+        navigate('/servicedetail');
+    }
     return (
         <div>
             <h2 className='description text-center'>Our Services</h2>
@@ -23,7 +29,7 @@ const Service = () => {
                             <ListGroupItem>Price Range: 300-500 BDT</ListGroupItem>
                             <ListGroupItem>Rating: 5/5</ListGroupItem>
                         </ListGroup>
-                        <Button variant="btn btn-text" style={{ width: '18rem' }}>Checkout</Button>
+                        <Button onClick={() => navigateToServiceDetail()} variant="btn btn-text" style={{ width: '18rem' }}>Checkout</Button>
                     </Card></Col>
                     <Col><Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={img2} />
