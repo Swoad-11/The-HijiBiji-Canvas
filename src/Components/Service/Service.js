@@ -16,9 +16,9 @@ const Service = () => {
         <div className='my-4'>
             <h2 className='description text-center'>Our Services</h2>
             <Container>
-                <Row>
+                <Row className='mx-auto'>
                     <Col className='py-4'>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='mx-auto' style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={img1} />
                             <Card.Body>
                                 <Card.Title>Illustration</Card.Title>
@@ -34,7 +34,7 @@ const Service = () => {
                         </Card>
                     </Col>
                     <Col className='py-4'>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='mx-auto' style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={img2} />
                             <Card.Body>
                                 <Card.Title>Painting</Card.Title>
@@ -50,7 +50,7 @@ const Service = () => {
                         </Card>
                     </Col>
                     <Col className='py-4'>
-                        <Card style={{ width: '18rem' }}>
+                        <Card className='mx-auto' style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={img3} />
                             <Card.Body>
                                 <Card.Title>Sketch</Card.Title>
