@@ -10,7 +10,7 @@ const Home = () => {
         <div>
             <Container className='home-container'>
                 <Row className='home-row'>
-                    <Col><img className='mx-auto' src={cover} alt="" /></Col>
+                    <Col><img className='mx-auto home-img' src={cover} alt="" /></Col>
                     <Col className='text-center'>
                         <div>
                             <h1 className='title'>The HijiBiji Canvas</h1>

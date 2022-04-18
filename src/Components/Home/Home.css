@@ -35,3 +35,15 @@
 .btn-text:hover {
     color: white !important;
 }
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .home-img {
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .home-img {
+        padding-left: 80px;
+    }
+}

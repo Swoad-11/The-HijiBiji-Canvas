@@ -1,6 +1,6 @@
 import React from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
-import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import { useMatch, useResolvedPath } from 'react-router-dom';
 
 function CustomLink({ children, to, ...props }) {
     let resolved = useResolvedPath(to);
@@ -9,7 +9,7 @@ function CustomLink({ children, to, ...props }) {
     return (
         <div>
             <LinkContainer
-                style={{ color: match ? "lightseagreen" : "white", borderBottom: match ? "1px solid lightseagreen" : "1px solid silver" }}
+                style={{ color: match ? "lightseagreen" : "black", borderBottom: match ? "1px solid lightseagreen" : "1px solid silver" }}
                 to={to}
                 {...props}
             >

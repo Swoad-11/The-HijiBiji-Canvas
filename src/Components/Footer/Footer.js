@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='footer'>
             <Container>
                 <Row className="pb-2 justify-content-baseline">
-                    <Col sm={8}>
+                    <Col className='top-footer' sm={8}>
                         <Container>
                             <Row>
                                 <Col sm={6}><div className='link d-flex justify-content-start'>
@@ -25,7 +25,7 @@ const Footer = () => {
                         </Container>
                     </Col>
                     <Col sm={4}>
-                        <p className='pb-4 text-black text-end'><small>&copy; By The HijiBiji Canvas {year}</small></p>
+                        <p className='pb-4 text-black text-end copyright'><small>&copy; By The HijiBiji Canvas {year}</small></p>
                     </Col>
                 </Row>
             </Container>
