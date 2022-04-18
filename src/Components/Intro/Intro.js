@@ -17,8 +17,8 @@ const Intro = () => {
                                 Here you will find digital illustrations, pencil sketches,canvas paintings and more!
                             </p>
                             <Button className='btn'>
-                                <LinkContainer to="/service">
-                                    <Nav.Link className='btn-text'><span>Our Services</span></Nav.Link>
+                                <LinkContainer to="/about">
+                                    <Nav.Link className='btn-text'><span>About</span></Nav.Link>
                                 </LinkContainer>
                             </Button>
                         </div>
