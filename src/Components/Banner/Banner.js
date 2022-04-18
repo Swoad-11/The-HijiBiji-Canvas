@@ -14,35 +14,35 @@ const Banner = () => {
             <Carousel fade variant="dark">
                 <Carousel.Item>
                     <img
-                        className="d-block mx-auto"
+                        className="img d-block mx-auto"
                         src={banner1}
                         alt="First slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block mx-auto"
+                        className="img d-block mx-auto"
                         src={banner2}
                         alt="Second slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block mx-auto"
+                        className="img d-block mx-auto"
                         src={banner3}
                         alt="Third slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block mx-auto"
+                        className="img d-block mx-auto"
                         src={banner4}
                         alt="Third slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block mx-auto"
+                        className="img d-block mx-auto"
                         src={banner5}
                         alt="Third slide"
                     />
