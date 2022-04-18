@@ -7,7 +7,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div>
+        <div className='header'>
             <Navbar bg="dark" variant="dark">
                 <Container>
                     <LinkContainer to="/home">

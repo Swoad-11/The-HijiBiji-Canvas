@@ -2,18 +2,33 @@ import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const Footer = () => {
+    const today = new Date();
+    const year = today.getFullYear();
     return (
-        <div className='mt-12 bg-blue-200'>
-            <footer className='text-center'>
-                <p className='fs-1'>The HijiBiji Canvas</p>
-                <div className="pt-2 pb-2">
-                    <a className='social px-2 text-2xl' href="https://www.facebook.com/dHJBJcanvas"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></a>
-                    <a className='social fs-6' href="https://www.instagram.com/thehijibijicanvas/"><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
-                </div>
-                <p className='pb-4 text-xs text-black'>&copy; By The HijiBiji Canvas 2022</p>
-            </footer>
+
+        <div className='footer'>
+            <Container>
+                <Row className="pb-2">
+                    <Col sm={8}>
+                        <Container>
+                            <Row>
+                                <Col sm={6}><div className='link d-flex justify-content-start'>
+                                    <p className='fs-5'>Social Media Links:</p>
+                                    <a className='social px-2 fs-5' href="https://www.facebook.com/dHJBJcanvas"><FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon></a>
+                                    <a className='social fs-5' href="https://www.instagram.com/thehijibijicanvas/"><FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
+                                </div></Col>
+                                <Col sm={6}><h4 className='title text-center'>The HijiBiji Canvas</h4></Col>
+                            </Row>
+                        </Container>
+                    </Col>
+                    <Col sm={4}>
+                        <p className='pb-4 text-black text-end'><small>&copy; By The HijiBiji Canvas {year}</small></p>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 };

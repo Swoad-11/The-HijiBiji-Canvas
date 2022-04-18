@@ -1,10 +1,11 @@
 import React from 'react';
+import error from '../../images/error.jpg'
 
 const ErrorNotFound = () => {
     return (
         <div>
-            <div className='mt-24'>
-                <img className='mx-auto' src="error.jpg" alt="" />
+            <div className='col-md-6 mx-auto'>
+                <img src={error} alt="" />
             </div>
         </div>
     );

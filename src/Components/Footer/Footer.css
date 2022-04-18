@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-footer {
+
+.footer {
+    margin-top: 100px;
     font-family: 'Roboto', sans-serif;
 }
 
 .social {
     color: rgb(15 118 110);
+    padding-left: 15px !important;
 }
 
 .social:hover {
-    color: white;
+    color: black;
 }

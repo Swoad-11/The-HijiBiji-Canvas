@@ -1,10 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+.home-container {
+    margin-top: 100px;
+}
+
 .title {
     font-family: 'Permanent Marker', cursive;
 }
 
 .description {
     font-family: 'Oswald', sans-serif;
+}
+
+.btn {
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #20B2AA;
+}
+
+.btn:hover {
+    border: 1px solid #20B2AA;
+    background-color: #20B2AA;
+}
+
+.btn-text {
+    color: black !important;
+}
+
+.btn-text:hover {
+    color: white !important;
 }
