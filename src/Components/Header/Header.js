@@ -40,11 +40,9 @@ const Header = () => {
                                 <Nav.Link className="mx-2"><span>ABOUT</span></Nav.Link>
                             </CustomLink>
                         </Nav>
-                    </Navbar.Collapse>
-                    <Navbar.Collapse className="justify-content-end">
                         {
                             user ?
-                                <Nav.Link className='mx-2 text-light text-decoration-none' onClick={handleSignOut}><span>Sign Out</span></Nav.Link>
+                                <Nav.Link className='mx-2 text-dark text-decoration-none' onClick={handleSignOut}><span>Sign Out</span></Nav.Link>
                                 :
                                 <LinkContainer to="/login">
                                     <Nav.Link className="mx-2 text-dark"><span>Login</span></Nav.Link>
